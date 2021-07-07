@@ -1,0 +1,75 @@
+Codepen link: https://codepen.io/iRose/pen/vYmGOEW 
+ 1. What is Semantic HTML? 
+    Semantic HTML is able to be read by screen readers. It relays the meaning of the code to the web browser.
+2. What is HTML used for? 
+    HTML is used to format and structure web pages.
+3. What is an attribute and where do we put it? 
+    An attribute goes after an element, and it adds more to the element.
+4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is used for titling the content of the page, and should only be used once.
+5. Name two tags that have required attributes
+    Two tags that have required attributes are the a tag and the img tag.
+6. What do we put in the head of our HTML document? 
+    Meta data is put into the head of an HTML document. This is the non visual HTML code. 
+7. What is an id? 
+    An id is a unique id for an HTML tag. It can only be used once in the HTML document.
+8. What elements can I add an id to? 
+    You can add an id to any element you want to style.
+9. How many times can I use the same id on a page? 
+    An id can be used once on a page.
+10. What is a class? 
+    A class is used to style part of HTML code in css. 
+11. What elements can I add a class to? 
+    You can add a class to any element you want to style.
+12. How many times can I use the same class on a page? 
+    Class can be used as many times as desired.
+13. How do I get my link to open in a new tab?
+    To get a link to open in a new tab put target="_blank" at the end of an a tag
+14. What is the alt attribute in the image tag used for? 
+    The alt attribute provides an alternative description in the case that an image doesn't load, and to provide those who require screen readers a description.
+15. How do I reference an id?
+    To reference an id you use #theid.
+16. What is the difference between a section and a div?
+    The section tag is Semantic, but div is not.
+17. What is CSS used for? 
+    CSS is used to style html code.
+18. How to we select an element? Example - every h2 on the page
+    To select all the h2 tags just use h2 {}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class can be used multiple times throughout the code, so if you want to style multiple sections the same way, you would use class. Id can only be used once.
+20. How do we select classes in CSS?
+    To select a class just use .theclass {}
+21. How do we select a p element with a single class of “human””?
+    p,.human {}
+22. What is a parent child selector? When would this be useful? 
+    The parent describes where the child elements to be styled are. So if you want to style all of the paragraphs in the .intro class you would do .intro p {}
+23. How do you select all links within a div with the class of sidebar?
+    .sidebar a {}
+24. What is a pseudo selector?
+    Pseudo selectors alter the state of the element.
+25. What do we use the change the spacing between lines?
+    line-height: value;
+26. What do we use to change the spacing between letters?
+    letter-spacing: value;
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase/lowercase/Capitalize;
+28. How do I add a 1px border around my div that is dotted and black?
+    div {border: 1px dotted black; }
+29. How do I select everything on the page? 
+    html {}
+30. How do I write a comment in CSS?
+    /**/
+31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    When you use git rm the file is permanently deleted immediately so you need to be sure you want it removed.
+34. Why should I use version control? 
+    It helps track changes to code.
+35. How often should I commit to github?
+    As much as possible.
+36. What is the command we would use to push our repo up to github? 
+    git push -u origin fn-ln
+37. Walk me through Lambda's git flow. 
+    fork -> clone -> cd -> code -> git checkout -b fn-ln -> git add . -> git commit -m "text" - > git push -u origin fn-ln -> create pull request
